@@ -19,9 +19,10 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        var map = L.map('map').setView([51.505, -0.09], 13);
+        //var map = L.map('map').setView([51.505, -0.09], 13);
+/*        var map = L.map('map').setView([43.4705876,-80.5550397], 13);
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-                    { attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
+                    { attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);*/
         this.bindEvents();
     },
     // Bind Event Listeners
